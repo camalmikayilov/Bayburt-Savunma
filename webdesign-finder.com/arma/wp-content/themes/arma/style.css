@@ -1,0 +1,125 @@
+/*
+Theme Name: Arma
+Theme URI: http://webdesign-finder.com/arma
+Author: MWTemplates
+Author URI: http://modernwebtemplates.com/
+Description: Arma - Renewable Energy WordPress theme
+Version: 1.0.2
+License: Commercial
+License URI: http://themeforest.net/licenses/regular_extended
+Tags: custom-header, left-sidebar, right-sidebar, post-formats, full-width-template
+Text Domain: arma
+Domain Path: /languages
+
+This theme uses great Unyson Framework to make best user experience
+
+see css/main.css for all of the styles
+*/
+
+
+/*
+** WordPress Required
+*/
+.alignnone {
+    margin: 5px 20px 20px 0;
+    clear: both;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.gallery-caption,
+.wp-caption {
+    background: #fff;
+    border:none;
+    max-width:100%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    white-space: nowrap;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+.screen-reader-text:focus {
+    clip: auto !important;
+    display: block;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000; /* Above WP toolbar. */
+}
+
+.sticky,
+.bypostauthor{position: relative;}

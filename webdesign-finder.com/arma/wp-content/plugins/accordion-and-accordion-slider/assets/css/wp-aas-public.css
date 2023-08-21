@@ -1,0 +1,44 @@
+/************************************************************
+				Clearfix
+************************************************************/
+.wpaas-row-clearfix:before, .wpaas-row-clearfix:after{content: "";display: table;}
+.wpaas-row-clearfix::after{clear: both;}
+.wpaas-row-clearfix{clear: both;}
+.wpos-tab-slider {position: relative; margin-left: auto;  margin-right: auto}
+.wpos-tab-slider{visibility: hidden; opacity:0; transition:opacity 0.5s linear; }
+.wpos-tab-slider.as-horizontal, .wpos-tab-slider.as-vertical{visibility: visible; opacity:1;}
+.wpaas-hide{display:none}
+.wpos-tab-slider * { -webkit-tap-highlight-color: transparent}
+.wpos-tab-slider .as-mask {position: absolute;  width: 100%; height: 100%;  overflow: hidden}
+.wpos-tab-slider .as-wposslides { position: absolute}
+.wpos-tab-slider.as-horizontal .as-wposslides { height: 100%}
+.wpos-tab-slider.as-vertical .as-wposslides {  width: 100%}
+.wpos-tab-slider .as-wposslide { position: absolute;  overflow: hidden}
+.wpos-tab-slider.overlap .as-wposslide {  overflow: visible}
+.wpos-tab-slider.as-horizontal .as-wposslide {  height: 100%; width: auto}
+.wpos-tab-slider.as-vertical .as-wposslide { width: 100%;  height: auto}
+.wpos-tab-slider .as-wposslide.as-shadow { -webkit-box-shadow: -5px 0 40px 1px #000; -mox-box-shadow: -5px 0 40px 1px #000;  box-shadow: -5px 0 40px 1px #000}
+.wpos-tab-slider .as-wposbg,
+.wpos-tab-slider .as-wposbg-opened { border: 0;  max-width: none;  max-height: none}
+.wpos-tab-slider.as-horizontal .as-wposbg,
+.wpos-tab-slider.as-horizontal .as-wposbg-opened {  height: 100%;  width: auto}
+.wpos-tab-slider.as-vertical .as-wposbg,
+.wpos-tab-slider.as-vertical .as-wposbg-opened {width: 100%; height: auto}
+.wpos-tab-slider .as-wposbg-opened {  position: absolute;  left: 0;  top: 0;  visibility: hidden}
+.wpos-tab-slider .as-layer { position: absolute;  margin: 0; box-sizing: border-box;  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-font-smoothing: subpixel-antialiased}
+.wpos-tab-slider .as-layer.as-black {  color: #FFF;  background: #000; background: rgba(0, 0, 0, .7) }
+.wpos-tab-slider .as-layer.as-white { color: #000;  background: #fff; background: rgba(255, 255, 255, .7)}
+.wpos-tab-slider .as-layer.as-rounded { border-radius: 10px}
+.wpos-tab-slider .as-layer.as-padding {  padding: 10px; top:auto !important; bottom:0px !important; transform-origin: left bottom;-moz-transform: rotate(-90deg) translateY(100%);-webkit-transform: rotate(-90deg) translateY(100%);transform: rotate(-90deg) translateY(100%);}
+.wpos-tab-slider .as-pagination-buttons { position: absolute;  top: 100%;  width: 100%;  text-align: center;   padding-top: 10px}
+.wpos-tab-slider .as-pagination-button { width: 10px;  height: 10px;  border: 2px solid #000;  border-radius: 50%; margin: 4px; display: inline-block;
+    -moz-box-sizing: border-box;  -webkit-box-sizing: border-box;  box-sizing: border-box;  cursor: pointer}
+.wpos-tab-slider .as-pagination-buttons .as-selected {  background-color: #000}
+.wpos-tab-slider .selectable { cursor: default}
+.wpos-tab-slider .as-grab { cursor: move}
+.wpos-tab-slider .as-grabbing {  cursor: move}
+@media only screen and (min-width:320px) and (max-width:568px) {
+   .wpos-tab-slider .as-layer {
+      display:none;
+    }
+}
