@@ -1,1 +1,0 @@
-chrome-extension://hahkojdegblcccihngmgndhdfheheofe/fonts/Inter-Regular.woff?v=3.19
