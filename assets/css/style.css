@@ -588,3 +588,18 @@ img.emoji {
     background: none !important;
     padding: 0 !important;
 }
+
+.ds .sf-menu>li>a:hover,
+.ds .sf-menu>li.active>a {
+    color: white !important;
+}
+
+.media.ls,
+.media.ds,
+.media.cs,
+.media.bordered,
+.media.hero-bg,
+.media.muted-bg,
+.media.box-shadow {
+    height: 11rem;
+}
