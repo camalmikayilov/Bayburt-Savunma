@@ -594,6 +594,14 @@ img.emoji {
     color: white !important;
 }
 
+@media screen and (max-width:1200px) {
+
+    .ds .sf-menu>li>a:hover,
+    .ds .sf-menu>li.active>a {
+        color: black !important;
+    }
+}
+
 .media.ls,
 .media.ds,
 .media.cs,
@@ -602,4 +610,8 @@ img.emoji {
 .media.muted-bg,
 .media.box-shadow {
     height: 11rem;
+}
+
+.service-isotope .icon-box p:before {
+    display: none !important;
 }
