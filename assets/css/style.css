@@ -615,3 +615,10 @@ img.emoji {
 .service-isotope .icon-box p:before {
     display: none !important;
 }
+
+@media screen and (min-width:1000px) {
+    .footer-text {
+        width: 60%;
+    }
+
+}
