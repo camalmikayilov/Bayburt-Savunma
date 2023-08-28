@@ -88,6 +88,21 @@
         type='text/css' media='all' />
 
     <style>
+        :root {
+            --colorMain: #FCD041;
+            --colorMain2: #eb3e3e;
+            --colorMain3: #3abf16;
+            --colorMain4: #2180eb;
+            --colorMainLighter10: #f7d436;
+            --colorMainDarken10: #bf9e08;
+            --colorMain2Darken10: #df1717;
+            --colorMain3Darken10: #2c9111;
+            --colorMainRGB: 240, 199, 10;
+            --colorMain2RGB: 235, 62, 62;
+            --colorMain3RGB: 58, 191, 22;
+            --colorMain4RGB: 33, 128, 235;
+        }
+
         .baysav-footer-logo img {
             height: 90px;
         }
@@ -106,6 +121,13 @@
 
         .hover-box:hover {
             background-color: var(--colorMain);
+        }
+
+        @media screen and (min-width:1000px) {
+            .footer-text {
+                width: 60%;
+            }
+
         }
     </style>
     <script type="text/javascript">
@@ -452,13 +474,6 @@
                             <div class="textwidget custom-html-widget">
                                 <div class="media side-icon-box">
                                     <div class="icon-styled color-main fs-14">
-                                        <i class="fa fa-map-marker" aria-hidden="true" style="margin-top: 1rem;"></i>
-                                    </div>
-                                    <p class="media-body">Mustafa Kemal Mah. 2131. Cad. 32 Sitesi No: 32/8 Çankaya /
-                                        ANKARA</p>
-                                </div>
-                                <div class="media side-icon-box">
-                                    <div class="icon-styled color-main fs-14">
                                         <i class="fa fa-phone" aria-hidden="true" style="margin-top: 1rem;"></i>
                                     </div>
                                     <p x-ms-format-detection="none" class="media-body"> 0 (312) 219 44 20<span>0
@@ -471,6 +486,13 @@
                                     <p class="media-body">
                                         <a href="mailto:info@baysav.com">info@baysav.com </a>
                                     </p>
+                                </div>
+                                <div class="media side-icon-box">
+                                    <div class="icon-styled color-main fs-14">
+                                        <i class="fa fa-map-marker" aria-hidden="true" style="margin-top:5px;"></i>
+                                    </div>
+                                    <p class="media-body">Mustafa Kemal Mah. 2131. Cad. 32 Sitesi No: 32/8 ÇANKAYA /
+                                        ANKARA</p>
                                 </div>
                             </div>
                         </div>

@@ -1,0 +1,14 @@
+:root {
+    --colorMain: #FCD041;
+    --colorMain2: #eb3e3e;
+    --colorMain3: #3abf16;
+    --colorMain4: #2180eb;
+    --colorMainLighter10: #f7d436;
+    --colorMainDarken10: #bf9e08;
+    --colorMain2Darken10: #df1717;
+    --colorMain3Darken10: #2c9111;
+    --colorMainRGB: 240, 199, 10;
+    --colorMain2RGB: 235, 62, 62;
+    --colorMain3RGB: 58, 191, 22;
+    --colorMain4RGB: 33, 128, 235;
+}
