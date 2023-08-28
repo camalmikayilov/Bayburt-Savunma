@@ -88,12 +88,34 @@
         type='text/css' media='all' />
 
     <style>
+        :root {
+            --colorMain: #FCD041;
+            --colorMain2: #eb3e3e;
+            --colorMain3: #3abf16;
+            --colorMain4: #2180eb;
+            --colorMainLighter10: #f7d436;
+            --colorMainDarken10: #bf9e08;
+            --colorMain2Darken10: #df1717;
+            --colorMain3Darken10: #2c9111;
+            --colorMainRGB: 240, 199, 10;
+            --colorMain2RGB: 235, 62, 62;
+            --colorMain3RGB: 58, 191, 22;
+            --colorMain4RGB: 33, 128, 235;
+        }
+
         .baysav-footer-logo img {
             height: 90px;
         }
 
         .page_footer .widget img {
             margin-bottom: 0 !important;
+        }
+
+        @media screen and (min-width:1000px) {
+            .footer-text {
+                width: 60%;
+            }
+
         }
     </style>
     <script type="text/javascript">
@@ -219,28 +241,6 @@
         <div class="preloader_css  animate-spin"></div> -->
     </div>
 
-    <!-- search modal -->
-    <div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-        </button>
-        <div class="widget widget_search">
-
-            <form role="search" method="get" class="search-form" action="https://webdesign-finder.com/arma/">
-                <div class="form-group">
-                    <label>
-                        <span class="screen-reader-text">Search for:</span>
-                        <input type="search" class="search-field form-control" placeholder="Search" value="" name="s"
-                            title="Search for:" />
-                    </label>
-                </div>
-                <button type="submit" class="search-submit">
-                    <span class="screen-reader-text">Search</span>
-                </button>
-            </form>
-        </div>
-    </div>
-
     <div id="canvas" class="">
         <div id="box_wrapper" class="">
             <div class="header_absolute ds cover-background"
@@ -331,10 +331,10 @@
                                     <div class="icon-styled fs-32  color-darkgrey">
                                         <i class="fa fa-map-marker" aria-hidden="true"></i>
                                         <h4 class="fw-300">
-                                            Adress </h4>
+                                            Adres </h4>
                                     </div>
                                     <div class="media-body">
-                                        <p>Mustafa Kemal Mah. 2131.<br> Cad. 32 Sitesi No: 32/8 Çankaya / ANKARA</p>
+                                        <p>Mustafa Kemal Mah. 2131.<br> Cad. 32 Sitesi No: 32/8 ÇANKAYA / ANKARA</p>
                                     </div>
                                 </div>
                             </div>
@@ -430,7 +430,7 @@
                                     data-smobile="35"></div>
                                 <div class="themesflat-map">
                                     <iframe
-                                        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3060.2056820030343!2d32.769463075239976!3d39.91441308606013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sMustafa%20Kemal%20Mah.%202131.%20Cad.%2032%20Sitesi%20No%3A%2032%2F8%20%C3%87ankaya%20%2F%20ANKARA!5e0!3m2!1saz!2saz!4v1692694320676!5m2!1saz!2saz"
+                                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6120.346494275257!2d32.769301!3d39.915139!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d348836611b2f9%3A0xdf593e39cd9fcb59!2s2131.%20Cadde!5e0!3m2!1str!2saz!4v1692947082055!5m2!1str!2saz"
                                         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 </div>
@@ -463,13 +463,6 @@
                             <div class="textwidget custom-html-widget">
                                 <div class="media side-icon-box">
                                     <div class="icon-styled color-main fs-14">
-                                        <i class="fa fa-map-marker" aria-hidden="true" style="margin-top: 1rem;"></i>
-                                    </div>
-                                    <p class="media-body">Mustafa Kemal Mah. 2131. Cad. 32 Sitesi No: 32/8 Çankaya /
-                                        ANKARA</p>
-                                </div>
-                                <div class="media side-icon-box">
-                                    <div class="icon-styled color-main fs-14">
                                         <i class="fa fa-phone" aria-hidden="true" style="margin-top: 1rem;"></i>
                                     </div>
                                     <p x-ms-format-detection="none" class="media-body"> 0 (312) 219 44 20<span>0
@@ -482,6 +475,13 @@
                                     <p class="media-body">
                                         <a href="mailto:info@baysav.com">info@baysav.com </a>
                                     </p>
+                                </div>
+                                <div class="media side-icon-box">
+                                    <div class="icon-styled color-main fs-14">
+                                        <i class="fa fa-map-marker" aria-hidden="true" style="margin-top:5px;"></i>
+                                    </div>
+                                    <p class="media-body">Mustafa Kemal Mah. 2131. Cad. 32 Sitesi No: 32/8 ÇANKAYA /
+                                        ANKARA</p>
                                 </div>
                             </div>
                         </div>
