@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en-US" class="no-js">
+<?php include("head_lang.php"); ?> 
+
 
 <head>
     <meta charset="UTF-8">
@@ -113,14 +113,6 @@
 
         .service-isotope .icon-box p::before {
             display: none !important;
-        }
-
-        .our-services-container {
-            margin-right: 5.5rem;
-        }
-
-        .hover-box:hover {
-            background-color: var(--colorMain);
         }
 
         @media screen and (min-width:1000px) {
@@ -255,51 +247,8 @@
 
     <div id="canvas" class="">
         <div id="box_wrapper" class="">
-            <!-- template sections -->
-            <div class="header_absolute ds "><!-- .header_absolute open -->
-                <header class="page_header ms justify-nav-end  ds   cover-background">
-                    <div class="container">
-                        <div class="row align-items-center">
-                            <div class="col-xl-2 col-lg-3 col-md-4 col-4">
-                                <a href="./index.html" rel="home" class="logo logo_image_and_text baysav-footer-logo">
-                                    <img src="./assets/images/baysav.png" alt="Arma">
-                                </a>
-                            </div>
-                            <div class="col-xl-10 col-lg-9 col-md-8 col-8 text-sm-center">
-                                <div class="nav-wrap">
-                                    <!-- main nav start -->
-                                    <nav class="top-nav">
-                                        <ul id="menu-main-menu" class="sf-menu nav">
-                                            <li id="menu-item-2494"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-2494">
-                                                <a href="/index.html">Ana Sayfa</a>
-                                            </li>
-                                            <li id="menu-item-2494"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-2494">
-                                                <a href="./hakkimizda.html">Hakkımızda</a>
-                                            </li>
-                                            <li id="menu-item-1011"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1011">
-                                                <a href="./faaliyet_alanlari.html">Faaliyet Alanları</a>
-                                            </li>
-                                            <!-- <li id="menu-item-1185"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1185">
-                                                <a title="" href="./hizmetler.html">Hizmetler</a>
-                                            </li> -->
-                                            <li id="menu-item-1177"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1177">
-                                                <a title="" href="./iletishim.html">İletişim</a>
-                                            </li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>
-
-                        </div>
-                        <span class="toggle_menu"><span></span></span>
-                    </div>
-                </header>
-            </div>
+        <?php include("header.php"); ?> 
+<!--.header_absolute-->
             <div class="fw-page-builder-content">
                 <section class=" overflow-visible  ds      s-pt-50 s-pb-50" id="section-d0d4c69">
                     <h6 class="d-none">section-d0d4c69</h6>
@@ -310,20 +259,68 @@
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </section>
+
+                <section class=" ds      s-pt-0 s-pb-40   s-pt-md-80 s-pb-md-65   s-pt-xl-100 s-pb-xl-195"
+                    id="section-cfcf232">
+                    <h6 class="d-none">section-cfcf232</h6>
+                    <div class="  cover-image  ds s-cover-left ">
+                        <img src="//webdesign-finder.com/arma/wp-content/uploads/2019/05/home-image.png"
+                            alt="section-cfcf232">
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 col-12 col-lg-6 col-xl-7">
+                                <img src="https://webdesign-finder.com/arma/wp-content/uploads/2019/05/home-image-1163x783.png"
+                                    alt="https://webdesign-finder.com/arma/wp-content/uploads/2019/05/home-image-1163x783.png"
+                                    width="1163" height="783" />
+                            </div><!-- .col-* -->
+                            <div class="col-xs-12 col-12 col-lg-6 col-xl-5">
+
+                                <div class="fw-divider-space"></div>
+                                <h1 class="special-heading text-left">
+                                    <span class="">
+                                        <span class="color-main">Hakkımızda
+                                </h1>
+
+                                <div class="fw-divider-space"></div>
+                                <div class="fw-divider-special ">
+                                    <p class="special"></p>
+                                </div>
+
+                                <div class="fw-divider-space hidden-lg hidden-xl"></div>
+
+                                <div class="fw-divider-space hidden-xs hidden-sm hidden-md">
+                                </div>
+                                <p>
+                                    BSS Baysav savunma sanayi için stratejik ve kapsamlı hizmetler sunmaktadır.
+                                    Sürdürülebilir, yenilikçi ve güvenilir ilkelerle sektörde öncü ve özgün adımlarla
+                                    ilerlemektedir.</p>
+                                <p>Yurt içi ve yurt dışında savunma sanayi için geniş yelpazede sistemler ve ürünler
+                                    geliştirmektedir.
+                                    Savunma ve güvenlik alanında kara, hava, deniz, silah, kontrol, lojistik,
+                                    haberleşme, otomasyon sistemleri için küresel ölçekte teknolojik çözümler
+                                    sunmaktadır.
+                                </p>
+                                <div class="fw-divider-space hidden-lg hidden-xl"></div>
+                            </div>
+                        </div>
+                </section>
+
                 <section
                     class=" ls      s-pt-60 s-pb-30   s-pt-md-70 s-pb-md-50   s-pt-xl-141 s-pb-xl-125      cover-background hide-img-on-mobile"
                     id="section-9c5429a"
                     style="background-image:url(https://webdesign-finder.com/arma/wp-content/uploads/2019/05/service-home.jpg);">
                     <h6 class="d-none">section-9c5429a</h6>
-                    <div class="container our-services-container">
+                    <div class="container">
                         <div class="row">
                             <div class="col-xs-12 col-12">
-                                <h1 class="special-heading text-center">
+                                <!-- <h1 class="special-heading text-center">
                                     <span class="">
-                                        <span class="color-main">FAALİYET ALANLARI</span>
-                                </h1>
+                                        <span class="color-main">HİZMETLERİMİZ</span>
+                                </h1> -->
                                 <div class="fw-divider-space " style="margin-top: 20px;"></div>
                                 <div class="fw-divider-special-center ">
                                     <p class="special"></p>
@@ -334,223 +331,71 @@
                                 <div
                                     class="isotope-wrapper isotope service-isotope row masonry-layout c-gutter-30 c-mb-30">
                                     <div class="isotope-item col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
-                                        <div class="icon-box text-center hover-box">
+                                        <div class="icon-box text-center ">
                                             <div class="teaser_icon icon-styled black size_big border_icon">
+                                                <img src="./assets/images/mission.png" alt="">
                                             </div>
                                             <h4>
-                                                <h5>
-                                                    KARA SİSTEMLERİ </h5>
+                                                <a href="https://webdesign-finder.com/arma/service/cloud-security/">
+                                                    MİSYON </a>
                                             </h4>
                                             <div class="cat-links">
                                             </div>
+                                            <p>
+                                                ​Savunma sanayi alanında stratejik ürünlerin üretim, tedarik ve Ar-Ge
+                                                faaliyetleri ile ihtiyaçlar doğrultusunda teminini sağlamak. </p>
                                         </div>
                                     </div>
                                     <div class="isotope-item col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
-                                        <div class="icon-box text-center hover-box">
+                                        <div class="icon-box text-center ">
                                             <div class="teaser_icon icon-styled black size_big border_icon">
+                                                <img src="./assets/images/target.png" alt="">
                                             </div>
                                             <h4>
-                                                <h5>
-                                                    HAVACILIK SİSTEMLERİ </h5>
+                                                <a href="https://webdesign-finder.com/arma/service/home-security/">
+                                                    VİZYON </a>
                                             </h4>
                                             <div class="cat-links">
                                             </div>
+                                            <p>
+                                                Savunma sanayi alanında yenilikçi, yerli ve milli yetenekleri güçlü bir
+                                                ekosistem içerisinde uluslararası gelişmeleri dikkate alarak stratejik
+                                                bir bakış açısıyla gerekli işbirlikleri çerçevesinde kaliteli ürünler
+                                                üretip öncü bir marka olmak. </p>
                                         </div>
                                     </div>
                                     <div class="isotope-item col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
-                                        <div class="icon-box text-center hover-box">
+                                        <div class="icon-box text-center ">
                                             <div class="teaser_icon icon-styled black size_big border_icon">
+                                                <img src="./assets/images/values.png" alt="">
                                             </div>
                                             <h4>
-                                                <h5>
-                                                    DENİZ SİSTEMLERİ </h5>
+                                                <a href="https://webdesign-finder.com/arma/service/discount-program/">
+                                                    DEĞERLER </a>
                                             </h4>
                                             <div class="cat-links">
                                             </div>
+                                            <p>
+                                                Kalite <br />
+                                                Güvenilirlik <br />
+                                                Yenilikçilik <br />
+                                                Sürdürülebilirlik <br />
+                                                Kapsayıcılık <br />
+                                                Çevreye ve İnsana Saygı </p>
                                         </div>
                                     </div>
-                                    <div class="isotope-item col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
-                                        <div class="icon-box text-center hover-box">
-                                            <div class="teaser_icon icon-styled black size_big border_icon">
-                                            </div>
-                                            <h4>
-                                                <h5>
-                                                    SİLAH SAVUNMA SİSTEMLERİ </h5>
-                                            </h4>
-                                            <div class="cat-links">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="isotope-item col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
-                                        <div class="icon-box text-center hover-box">
-                                            <div class="teaser_icon icon-styled black size_big border_icon">
-                                            </div>
-                                            <h4>
-                                                <h5>
-                                                    HABERLEŞME SİSTEMLERİ </h5>
-                                            </h4>
-                                            <div class="cat-links">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="isotope-item col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
-                                        <div class="icon-box text-center hover-box">
-                                            <div class="teaser_icon icon-styled black size_big border_icon">
-                                            </div>
-                                            <h4>
-                                                <h5>
-                                                    KONTROL SİSTEMLERİ </h5>
-                                            </h4>
-                                            <div class="cat-links">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="isotope-item col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
-                                        <div class="icon-box text-center hover-box">
-                                            <div class="teaser_icon icon-styled black size_big border_icon">
-                                            </div>
-                                            <h4>
-                                                <h5>
-                                                    LOJİSTİK SİSTEMLERİ </h5>
-                                            </h4>
-                                            <div class="cat-links">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="isotope-item col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
-                                        <div class="icon-box text-center hover-box">
-                                            <div class="teaser_icon icon-styled black size_big border_icon">
-                                            </div>
-                                            <h4>
-                                                <h5>
-                                                    İMALAT SİSTEMLERİ </h5>
-                                            </h4>
-                                            <div class="cat-links">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="isotope-item col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
-                                        <div class="icon-box text-center hover-box">
-                                            <div class="teaser_icon icon-styled black size_big border_icon">
-                                            </div>
-                                            <h4>
-                                                <h5>
-                                                    OTOMASYON SİSTEMLERİ </h5>
-                                            </h4>
-                                            <div class="cat-links">
-                                            </div>
-                                        </div>
-                                    </div>
+
                                 </div>
                             </div>
                         </div>
-
                     </div>
 
             </div>
             </section>
         </div>
 
-        <footer class="page_footer  ds s-pt-60 s-pb-40 c-gutter-150       s-pt-xl-100 s-pb-xl-80    ">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <div id="mwt_bloginfo-6" class="widget widget_bloginfo baysav-footer-logo"> <img
-                                src="./assets/images/baysav.png" alt="Logo">
-                        </div>
-                        <div id="custom_html-8" class="widget_text widget widget_custom_html">
-                            <div class="textwidget custom-html-widget footer-text">
-                                <p>BSS Baysav savunma sanayi alanında kapsamlı çözümler sunmaktadır. Sürdürülebilir,
-                                    yenilikçi ve güvenilir ilkelerle sektörde öncü ve özgün adımlarla
-                                    ilerlemektedir.</p>
-                                <div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div id="custom_html-5" class="widget_text widget widget_custom_html">
-                            <h3 class="widget-title">İLETİŞİM</h3>
-                            <div class="textwidget custom-html-widget">
-                                <div class="media side-icon-box">
-                                    <div class="icon-styled color-main fs-14">
-                                        <i class="fa fa-phone" aria-hidden="true" style="margin-top: 1rem;"></i>
-                                    </div>
-                                    <p x-ms-format-detection="none" class="media-body"> 0 (312) 219 44 20<span>0
-                                            (312) 219 44 21</span></p>
-                                </div>
-                                <div class="media side-icon-box">
-                                    <div class="icon-styled color-main fs-14">
-                                        <i class="fa fa-envelope" aria-hidden="true" style="margin-top: 6px;"></i>
-                                    </div>
-                                    <p class="media-body">
-                                        <a href="mailto:info@baysav.com">info@baysav.com </a>
-                                    </p>
-                                </div>
-                                <div class="media side-icon-box">
-                                    <div class="icon-styled color-main fs-14">
-                                        <i class="fa fa-map-marker" aria-hidden="true" style="margin-top:5px;"></i>
-                                    </div>
-                                    <p class="media-body">Mustafa Kemal Mah. 2131. Cad. 32 Sitesi No: 32/8 ÇANKAYA /
-                                        ANKARA</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- <div class="col-md-4">
-                        <div id="mwt_theme_posts-3" class="widget widget_popular_entries">
-                            <h3 class="widget-title">Son Haberler</h3>
-                            <ul id="recent_posts_64d96b392d468" class="list-unstyled">
-                                <li
-                                    class="media post-7 post type-post status-publish format-standard has-post-thumbnail hentry category-news">
-                                    <a href="https://webdesign-finder.com/arma/ready-for-a-safe-fun-driving/"
-                                        class="media-left">
-                                        <img width="150" height="150"
-                                            src="https://webdesign-finder.com/arma/wp-content/uploads/2019/04/01-3-150x150.jpg"
-                                            class="attachment-thumbnail size-thumbnail wp-post-image" alt=""
-                                            decoding="async" loading="lazy"
-                                            srcset="https://webdesign-finder.com/arma/wp-content/uploads/2019/04/01-3-150x150.jpg 150w, https://webdesign-finder.com/arma/wp-content/uploads/2019/04/01-3-800x800.jpg 800w, https://webdesign-finder.com/arma/wp-content/uploads/2019/04/01-3-300x300.jpg 300w, https://webdesign-finder.com/arma/wp-content/uploads/2019/04/01-3-100x100.jpg 100w, https://webdesign-finder.com/arma/wp-content/uploads/2019/04/01-3-700x700.jpg 700w"
-                                            sizes="(max-width: 150px) 100vw, 150px" /> </a>
-                                    <div class="media-body">
-                                        <h4 class="title"><a
-                                                href="https://webdesign-finder.com/arma/ready-for-a-safe-fun-driving/">Arma
-                                                recognized as a LinkedIn Top Company</a></h4>
-                                        <p class="item-meta">
-                                            <span class="widget-post-date">
-                                                October 13, 2022 </span>
-                                        </p>
-                                    </div>
-                                </li>
-                                <li
-                                    class="media post-296 post type-post status-publish format-gallery hentry category-carousel category-uncategorized post_format-post-format-gallery">
-                                    <div class="media-body">
-                                        <h4 class="title"><a
-                                                href="https://webdesign-finder.com/arma/post-with-carousel/">Arma
-                                                funds robotics grants for 100 schools</a></h4>
-                                        <p class="item-meta">
-                                            <span class="widget-post-date">
-                                                September 6, 2022 </span>
-                                        </p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-        </footer>
-        <section class="page_copyright  ds s-pt-10 s-pb-10             ">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-sm-12 text-center">
-                        <p>
-                            <span class="copyright-year">&copy; 2023 </span> <a href="https://www.butagrup.com.tr/"
-                                target="_blank">Buta Grup</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section><!-- .page_copyright -->
+        <?php include("footer.php"); ?> 
+<!-- .page_copyright -->
     </div><!-- eof #box_wrapper -->
     </div><!-- eof #canvas -->
 
