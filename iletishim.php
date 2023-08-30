@@ -1,5 +1,6 @@
-<!DOCTYPE html>
-<html lang="en-US" class="no-js">
+<?php include("head_lang.php"); ?> 
+
+
 
 <head>
     <meta charset="UTF-8">
@@ -109,10 +110,6 @@
 
         .page_footer .widget img {
             margin-bottom: 0 !important;
-        }
-
-        .service-isotope .icon-box p::before {
-            display: none !important;
         }
 
         @media screen and (min-width:1000px) {
@@ -239,306 +236,154 @@
 </head>
 
 <body
-    class="home page-template page-template-page-templates page-template-full-width page-template-page-templatesfull-width-php page page-id-1117 theme-arma woocommerce-no-js masthead-fixed full-width grid">
+    class="page-template page-template-page-templates page-template-full-width page-template-page-templatesfull-width-php page page-id-339 theme-arma woocommerce-no-js masthead-fixed full-width singular">
     <!-- page preloader -->
     <!-- <div class="preloader">
-		<div class="preloader_css  animate-spin"></div>
-	</div> -->
+        <div class="preloader_css  animate-spin"></div> -->
+    </div>
 
     <div id="canvas" class="">
         <div id="box_wrapper" class="">
-            <div class="header_absolute ds ">
-                <header class="page_header ms justify-nav-end  ds   cover-background">
-                    <div class="container">
-                        <div class="row align-items-center">
-                            <div class="col-xl-2 col-lg-3 col-md-4 col-4">
-                                <a href="./index.html" rel="home" class="logo logo_image_and_text baysav-footer-logo">
-                                    <img src="./assets/images/baysav.png" alt="Arma">
-                                </a>
-                            </div>
-                            <div class="col-xl-10 col-lg-9 col-md-8 col-8 text-sm-center">
-                                <div class="nav-wrap">
-                                    <!-- main nav start -->
-                                    <nav class="top-nav">
-                                        <ul id="menu-main-menu" class="sf-menu nav">
-                                            <li id="menu-item-2494"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-2494">
-                                                <a href="/index.html">Ana Sayfa</a>
-                                            </li>
-                                            <li id="menu-item-2494"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-2494">
-                                                <a href="./hakkimizda.html">Hakkımızda</a>
-                                            </li>
-                                            <li id="menu-item-1011"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1011">
-                                                <a href="./faaliyet_alanlari.html">Faaliyet Alanları</a>
-                                            </li>
-                                            <!-- <li id="menu-item-1185"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1185">
-                                                <a title="" href="./hizmetler.html">Hizmetler</a>
-                                            </li> -->
-                                            <li id="menu-item-1177"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1177">
-                                                <a title="" href="./iletishim.html">İletişim</a>
-                                            </li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>
+        <?php include("header.php"); ?> 
 
-                        </div>
-                        <!-- header toggler -->
-                        <span class="toggle_menu"><span></span></span>
-                    </div>
-                </header>
-            </div><!--.header_absolute-->
             <div class="fw-page-builder-content">
-                <section class=" overflow-visible  ds      s-pt-50 s-pb-50" id="section-d0d4c69">
-                    <h6 class="d-none">section-d0d4c69</h6>
+                <section class=" ls      s-pt-60 s-pb-0   s-pt-md-80 s-pb-md-0   s-pt-xl-150 s-pb-xl-0"
+                    id="section-3d5447f">
+                    <h6 class="d-none">section-3d5447f</h6>
                     <div class="container">
                         <div class="row">
-                            <div class="col-xs-12 col-12">
-                                <div class="fw-divider-space hidden-xs hidden-sm hidden-md">
+                            <div class="col-xs-12 col-12 col-lg-4 text-center">
+                                <div class="icon-box media cs text-left">
+                                    <div class="icon-styled fs-32  color-darkgrey">
+                                        <i class="fa fa-phone" aria-hidden="true"></i>
+                                        <h4 class="fw-300">
+                                            Telefon </h4>
+                                    </div>
+                                    <div class="media-body">
+                                        <p>0 (312) 219 44 20<br>
+                                            0 (312) 219 44 21</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-12 col-lg-4">
+                                <div class="fw-divider-space hidden-lg hidden-xl" style="margin-top: 50px;"></div>
+                                <div class="icon-box media cs text-left">
+                                    <div class="icon-styled fs-32  color-darkgrey">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <h4 class="fw-300">
+                                            Adres </h4>
+                                    </div>
+                                    <div class="media-body">
+                                        <p>Mustafa Kemal Mah. 2131.<br> Cad. 32 Sitesi No: 32/8 ÇANKAYA / ANKARA</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-12 col-lg-4">
+                                <div class="fw-divider-space hidden-lg hidden-xl" style="margin-top: 50px;"></div>
+                                <div class="icon-box media cs text-left">
+                                    <div class="icon-styled fs-32  color-darkgrey">
+                                        <i class="fa fa-envelope" aria-hidden="true"></i>
+
+                                        <h4 class="fw-300">
+                                            E-Posta </h4>
+                                    </div>
+                                    <div class="media-body">
+                                        <p><a href="mailto:info@baysav.com">
+                                                info@baysav.com</a></p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </section>
 
-                <section class=" ds      s-pt-0 s-pb-40   s-pt-md-80 s-pb-md-65   s-pt-xl-100 s-pb-xl-195"
-                    id="section-cfcf232">
-                    <h6 class="d-none">section-cfcf232</h6>
-                    <div class="  cover-image  ds s-cover-left ">
-                        <img src="//webdesign-finder.com/arma/wp-content/uploads/2019/05/home-image.png"
-                            alt="section-cfcf232">
-                    </div>
+                <section class=" ls      s-pt-60 s-pb-60   s-pt-md-80 s-pb-md-80   s-pt-xl-100 s-pb-xl-150"
+                    id="section-045995f">
+                    <h6 class="d-none">section-045995f</h6>
                     <div class="container">
                         <div class="row">
-                            <div class="col-xs-12 col-12 col-lg-6 col-xl-7">
-                                <img src="https://webdesign-finder.com/arma/wp-content/uploads/2019/05/home-image-1163x783.png"
-                                    alt="https://webdesign-finder.com/arma/wp-content/uploads/2019/05/home-image-1163x783.png"
-                                    width="1163" height="783" />
-                            </div><!-- .col-* -->
                             <div class="col-xs-12 col-12 col-lg-6 col-xl-5">
-
-                                <div class="fw-divider-space"></div>
-                                <h1 class="special-heading text-left">
-                                    <span class="">
-                                        <span class="color-main">Hakkımızda
-                                </h1>
-
-                                <div class="fw-divider-space"></div>
-                                <div class="fw-divider-special ">
-                                    <p class="special"></p>
+                                <div class="fw-divider-space hidden-xs hidden-sm hidden-md" style="margin-top: 50px;">
                                 </div>
-
-                                <div class="fw-divider-space hidden-lg hidden-xl"></div>
-
-                                <div class="fw-divider-space hidden-xs hidden-sm hidden-md">
-                                </div>
-                                <p>
-                                    BSS Baysav savunma sanayi için stratejik ve kapsamlı hizmetler sunmaktadır.
-                                    Sürdürülebilir, yenilikçi ve güvenilir ilkelerle sektörde öncü ve özgün adımlarla
-                                    ilerlemektedir.</p>
-                                <p>Yurt içi ve yurt dışında savunma sanayi için geniş yelpazede sistemler ve ürünler
-                                    geliştirmektedir.
-                                    Savunma ve güvenlik alanında kara, hava, deniz, silah, kontrol, lojistik,
-                                    haberleşme, otomasyon sistemleri için küresel ölçekte teknolojik çözümler
-                                    sunmaktadır.
-                                </p>
-                                <div class="fw-divider-space hidden-lg hidden-xl"></div>
-                            </div>
-                        </div>
-                </section>
-
-                <section
-                    class=" ls      s-pt-60 s-pb-30   s-pt-md-70 s-pb-md-50   s-pt-xl-141 s-pb-xl-125      cover-background hide-img-on-mobile"
-                    id="section-9c5429a"
-                    style="background-image:url(https://webdesign-finder.com/arma/wp-content/uploads/2019/05/service-home.jpg);">
-                    <h6 class="d-none">section-9c5429a</h6>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xs-12 col-12">
-                                <!-- <h1 class="special-heading text-center">
-                                    <span class="">
-                                        <span class="color-main">HİZMETLERİMİZ</span>
-                                </h1> -->
-                                <div class="fw-divider-space " style="margin-top: 20px;"></div>
-                                <div class="fw-divider-special-center ">
-                                    <p class="special"></p>
-                                </div>
-                                <div class="fw-divider-space hidden-lg hidden-xl" style="margin-top: 35px;"></div>
-                                <div class="fw-divider-space hidden-xs hidden-sm hidden-md" style="margin-top: 65px;">
-                                </div>
-                                <div
-                                    class="isotope-wrapper isotope service-isotope row masonry-layout c-gutter-30 c-mb-30">
-                                    <div class="isotope-item col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
-                                        <div class="icon-box text-center ">
-                                            <div class="teaser_icon icon-styled black size_big border_icon">
-                                                <img src="./assets/images/mission.png" alt="">
-                                            </div>
-                                            <h4>
-                                                <a href="https://webdesign-finder.com/arma/service/cloud-security/">
-                                                    MİSYON </a>
-                                            </h4>
-                                            <div class="cat-links">
-                                            </div>
-                                            <p>
-                                                ​Savunma sanayi alanında stratejik ürünlerin üretim, tedarik ve Ar-Ge
-                                                faaliyetleri ile ihtiyaçlar doğrultusunda teminini sağlamak. </p>
-                                        </div>
+                                <div role="form" class="wpcf7" id="wpcf7-f2703-p339-o1" lang="en-US" dir="ltr">
+                                    <div class="screen-reader-response">
+                                        <p role="status" aria-live="polite" aria-atomic="true"></p>
+                                        <ul></ul>
                                     </div>
-                                    <div class="isotope-item col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
-                                        <div class="icon-box text-center ">
-                                            <div class="teaser_icon icon-styled black size_big border_icon">
-                                                <img src="./assets/images/target.png" alt="">
-                                            </div>
-                                            <h4>
-                                                <a href="https://webdesign-finder.com/arma/service/home-security/">
-                                                    VİZYON </a>
-                                            </h4>
-                                            <div class="cat-links">
-                                            </div>
-                                            <p>
-                                                Savunma sanayi alanında yenilikçi, yerli ve milli yetenekleri güçlü bir
-                                                ekosistem içerisinde uluslararası gelişmeleri dikkate alarak stratejik
-                                                bir bakış açısıyla gerekli işbirlikleri çerçevesinde kaliteli ürünler
-                                                üretip öncü bir marka olmak. </p>
+                                    <form action="/arma/contacts/#wpcf7-f2703-p339-o1" method="post"
+                                        class="wpcf7-form init" novalidate="novalidate" data-status="init">
+                                        <div style="display: none;">
+                                            <input type="hidden" name="_wpcf7" value="2703" />
+                                            <input type="hidden" name="_wpcf7_version" value="5.6.4" />
+                                            <input type="hidden" name="_wpcf7_locale" value="en_US" />
+                                            <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f2703-p339-o1" />
+                                            <input type="hidden" name="_wpcf7_container_post" value="339" />
+                                            <input type="hidden" name="_wpcf7_posted_data_hash" value="" />
                                         </div>
-                                    </div>
-                                    <div class="isotope-item col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
-                                        <div class="icon-box text-center ">
-                                            <div class="teaser_icon icon-styled black size_big border_icon">
-                                                <img src="./assets/images/values.png" alt="">
+                                        <div class="wrap-forms">
+                                            <div class="row c-gutter-30 c-mb-40">
+                                                <div class="col-xs-12 col-12 form-builder-item">
+                                                    <!-- <label for="id-1"><strong>Ad</strong> <sup>*</sup>.</label> -->
+                                                    <span class="wpcf7-form-control-wrap" data-name="your-name"><input
+                                                            type="text" name="your-name" value="" size="40"
+                                                            class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control"
+                                                            id="id-1" aria-required="true" aria-invalid="false"
+                                                            placeholder="Ad*:" /></span>
+                                                </div>
+                                                <div class="col-xs-12 col-12 form-builder-item">
+                                                    <!-- <label for="id-1"><strong>Ad</strong> <sup>*</sup>.</label> -->
+                                                    <span class="wpcf7-form-control-wrap" data-name="your-name"><input
+                                                            type="text" name="your-name" value="" size="40"
+                                                            class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control"
+                                                            id="id-1" aria-required="true" aria-invalid="false"
+                                                            placeholder="Telefon*:" /></span>
+                                                </div>
+                                                <div class="col-xs-12 col-12 form-builder-item">
+                                                    <!-- <label for="id-2">Email<sup>*</sup></label> -->
+                                                    <span class="wpcf7-form-control-wrap" data-name="your-email"><input
+                                                            type="email" name="your-email" value="" size="40"
+                                                            class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control"
+                                                            id="id-2" aria-required="true" aria-invalid="false"
+                                                            placeholder="E-posta*:" /></span>
+                                                </div>
+                                                <div class="col-xs-12 col-12 form-builder-item">
+                                                    <!-- <label for="id-3">Mesajınız <sup>*</sup></label> -->
+                                                    <span class="wpcf7-form-control-wrap"
+                                                        data-name="your-textarea"><textarea name="your-textarea"
+                                                            cols="40" rows="6"
+                                                            class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required form-control"
+                                                            id="id-3" aria-required="true" aria-invalid="false"
+                                                            placeholder="Mesaj*:"></textarea></span>
+                                                </div>
+                                                <div class="col-12 col-sm-12 mb-0">
+                                                    <input type="submit" value="Gönder"
+                                                        class="wpcf7-form-control has-spinner wpcf7-submit btn btn-outline-darkgrey" />
+                                                </div>
                                             </div>
-                                            <h4>
-                                                <a href="https://webdesign-finder.com/arma/service/discount-program/">
-                                                    DEĞERLER </a>
-                                            </h4>
-                                            <div class="cat-links">
-                                            </div>
-                                            <p>
-                                                Kalite <br />
-                                                Güvenilirlik <br />
-                                                Yenilikçilik <br />
-                                                Sürdürülebilirlik <br />
-                                                Kapsayıcılık <br />
-                                                Çevreye ve İnsana Saygı </p>
                                         </div>
-                                    </div>
-
+                                        <div class="wpcf7-response-output" aria-hidden="true"></div>
+                                    </form>
+                                </div>
+                            </div><!-- .col-* -->
+                            <div class="col-xs-12 col-12 col-lg-6 col-xl-7">
+                                <div class="themesflat-spacer clearfix" data-desktop="20" data-mobile="35"
+                                    data-smobile="35"></div>
+                                <div class="themesflat-map">
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6120.346494275257!2d32.769301!3d39.915139!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d348836611b2f9%3A0xdf593e39cd9fcb59!2s2131.%20Cadde!5e0!3m2!1str!2saz!4v1692947082055!5m2!1str!2saz"
+                                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 </div>
                             </div>
                         </div>
                     </div>
-
             </div>
             </section>
         </div>
+        <?php include("footer.php"); ?> 
 
-        <footer class="page_footer  ds s-pt-60 s-pb-40 c-gutter-150       s-pt-xl-100 s-pb-xl-80    ">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <div id="mwt_bloginfo-6" class="widget widget_bloginfo baysav-footer-logo"> <img
-                                src="./assets/images/baysav.png" alt="Logo">
-                        </div>
-                        <div id="custom_html-8" class="widget_text widget widget_custom_html">
-                            <div class="textwidget custom-html-widget footer-text">
-                                <p>BSS Baysav savunma sanayi alanında kapsamlı çözümler sunmaktadır. Sürdürülebilir,
-                                    yenilikçi ve güvenilir ilkelerle sektörde öncü ve özgün adımlarla
-                                    ilerlemektedir.</p>
-                                <div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div id="custom_html-5" class="widget_text widget widget_custom_html">
-                            <h3 class="widget-title">İLETİŞİM</h3>
-                            <div class="textwidget custom-html-widget">
-                                <div class="media side-icon-box">
-                                    <div class="icon-styled color-main fs-14">
-                                        <i class="fa fa-phone" aria-hidden="true" style="margin-top: 1rem;"></i>
-                                    </div>
-                                    <p x-ms-format-detection="none" class="media-body"> 0 (312) 219 44 20<span>0
-                                            (312) 219 44 21</span></p>
-                                </div>
-                                <div class="media side-icon-box">
-                                    <div class="icon-styled color-main fs-14">
-                                        <i class="fa fa-envelope" aria-hidden="true" style="margin-top: 6px;"></i>
-                                    </div>
-                                    <p class="media-body">
-                                        <a href="mailto:info@baysav.com">info@baysav.com </a>
-                                    </p>
-                                </div>
-                                <div class="media side-icon-box">
-                                    <div class="icon-styled color-main fs-14">
-                                        <i class="fa fa-map-marker" aria-hidden="true" style="margin-top:5px;"></i>
-                                    </div>
-                                    <p class="media-body">Mustafa Kemal Mah. 2131. Cad. 32 Sitesi No: 32/8 ÇANKAYA /
-                                        ANKARA</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- <div class="col-md-4">
-                        <div id="mwt_theme_posts-3" class="widget widget_popular_entries">
-                            <h3 class="widget-title">Son Haberler</h3>
-                            <ul id="recent_posts_64d96b392d468" class="list-unstyled">
-                                <li
-                                    class="media post-7 post type-post status-publish format-standard has-post-thumbnail hentry category-news">
-                                    <a href="https://webdesign-finder.com/arma/ready-for-a-safe-fun-driving/"
-                                        class="media-left">
-                                        <img width="150" height="150"
-                                            src="https://webdesign-finder.com/arma/wp-content/uploads/2019/04/01-3-150x150.jpg"
-                                            class="attachment-thumbnail size-thumbnail wp-post-image" alt=""
-                                            decoding="async" loading="lazy"
-                                            srcset="https://webdesign-finder.com/arma/wp-content/uploads/2019/04/01-3-150x150.jpg 150w, https://webdesign-finder.com/arma/wp-content/uploads/2019/04/01-3-800x800.jpg 800w, https://webdesign-finder.com/arma/wp-content/uploads/2019/04/01-3-300x300.jpg 300w, https://webdesign-finder.com/arma/wp-content/uploads/2019/04/01-3-100x100.jpg 100w, https://webdesign-finder.com/arma/wp-content/uploads/2019/04/01-3-700x700.jpg 700w"
-                                            sizes="(max-width: 150px) 100vw, 150px" /> </a>
-                                    <div class="media-body">
-                                        <h4 class="title"><a
-                                                href="https://webdesign-finder.com/arma/ready-for-a-safe-fun-driving/">Arma
-                                                recognized as a LinkedIn Top Company</a></h4>
-                                        <p class="item-meta">
-                                            <span class="widget-post-date">
-                                                October 13, 2022 </span>
-                                        </p>
-                                    </div>
-                                </li>
-                                <li
-                                    class="media post-296 post type-post status-publish format-gallery hentry category-carousel category-uncategorized post_format-post-format-gallery">
-                                    <div class="media-body">
-                                        <h4 class="title"><a
-                                                href="https://webdesign-finder.com/arma/post-with-carousel/">Arma
-                                                funds robotics grants for 100 schools</a></h4>
-                                        <p class="item-meta">
-                                            <span class="widget-post-date">
-                                                September 6, 2022 </span>
-                                        </p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-        </footer>
-        <section class="page_copyright  ds s-pt-10 s-pb-10             ">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-sm-12 text-center">
-                        <p>
-                            <span class="copyright-year">&copy; 2023 </span> <a href="https://www.butagrup.com.tr/"
-                                target="_blank">Buta Grup</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section><!-- .page_copyright -->
-    </div><!-- eof #box_wrapper -->
-    </div><!-- eof #canvas -->
+    </div>
+    </div>
 
     <script type="text/javascript">
         window.RS_MODULES = window.RS_MODULES || {};
@@ -548,7 +393,6 @@
         window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
         window.RS_MODULES.type = 'compiled';
     </script>
-
     <script type="text/javascript">
         (function () {
             var c = document.body.className;
@@ -556,10 +400,13 @@
             document.body.className = c;
         })();
     </script>
-    <script type="text/javascript">
-        if (typeof revslider_showDoubleJqueryError === "undefined") { function revslider_showDoubleJqueryError(sliderID) { console.log("You have some jquery.js library include that comes after the Slider Revolution files js inclusion."); console.log("To fix this, you can:"); console.log("1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on"); console.log("2. Find the double jQuery.js inclusion and remove it"); return "Double Included jQuery Library"; } }
-    </script>
+    <link rel='stylesheet' id='rs-plugin-settings-css'
+        href='https://webdesign-finder.com/arma/wp-content/plugins/rev-slider/public/assets/css/rs6.css?ver=6.5.8'
+        type='text/css' media='all' />
 
+    <script src="javascript/gmap3.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIEU6OT3xqCksCetQeNLIPps6-AYrhq-s&region=GB">
+    </script>
     <script type='text/javascript'
         src='https://webdesign-finder.com/arma/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.6.4'
         id='swv-js'></script>
@@ -573,7 +420,7 @@
         id='contact-form-7-js'></script>
     <script type='text/javascript' id='post-likes-js-extra'>
         /* <![CDATA[ */
-        var MyAjax = { "ajaxurl": "https:\/\/webdesign-finder.com\/arma\/wp-admin\/admin-ajax.php", "security": "168f13d830" };
+        var MyAjax = { "ajaxurl": "https:\/\/webdesign-finder.com\/arma\/wp-admin\/admin-ajax.php", "security": "9631ede4af" };
 /* ]]> */
     </script>
     <script type='text/javascript'
@@ -682,75 +529,13 @@
     <script type='text/javascript' src='https://webdesign-finder.com/arma/wp-content/themes/arma/js/main.js?ver=1.0.2'
         id='arma-main-js'></script>
     <script type='text/javascript'
-        src='https://webdesign-finder.com/arma/wp-content/plugins/accordion-and-accordion-slider/assets/js/wpos-accordion-slider-js.js?ver=1.2.4'
-        id='wpos-accordion-slider-js-js'></script>
+        src='https://maps.googleapis.com/maps/api/js?v=3.30&#038;language=en&#038;libraries=places&#038;key=AIzaSyC0pr5xCHpaTGv12l73IExOHDJisBP2FK4&#038;ver=3.30'
+        id='google-maps-api-v3-js'></script>
+    <script type='text/javascript' src='https://webdesign-finder.com/arma/wp-includes/js/underscore.min.js?ver=1.13.4'
+        id='underscore-js'></script>
     <script type='text/javascript'
-        src='https://webdesign-finder.com/arma/wp-content/plugins/accordion-and-accordion-slider/assets/js/wp-aas-public.js?ver=1.2.4'
-        id='wp-aas-public-js-js'></script>
-    <script type="text/javascript" id="rs-initialisation-scripts">
-        var tpj = jQuery;
-
-        var revapi1;
-
-        if (window.RS_MODULES === undefined) window.RS_MODULES = {};
-        if (RS_MODULES.modules === undefined) RS_MODULES.modules = {};
-        RS_MODULES.modules["revslider11"] = {
-            once: RS_MODULES.modules["revslider11"] !== undefined ? RS_MODULES.modules["revslider11"].once : undefined, init: function () {
-                window.revapi1 = window.revapi1 === undefined || window.revapi1 === null || window.revapi1.length === 0 ? document.getElementById("rev_slider_1_1") : window.revapi1;
-                if (window.revapi1 === null || window.revapi1 === undefined || window.revapi1.length == 0) { window.revapi1initTry = window.revapi1initTry === undefined ? 0 : window.revapi1initTry + 1; if (window.revapi1initTry < 20) requestAnimationFrame(function () { RS_MODULES.modules["revslider11"].init() }); return; }
-                window.revapi1 = jQuery(window.revapi1);
-                if (window.revapi1.revolution == undefined) { revslider_showDoubleJqueryError("rev_slider_1_1"); return; }
-                revapi1.revolutionInit({
-                    revapi: "revapi1",
-                    sliderLayout: "fullwidth",
-                    visibilityLevels: "1240,1200,992,767",
-                    gridwidth: 1260,
-                    gridheight: 920,
-                    lazyType: "smart",
-                    spinner: "spinner0",
-                    perspectiveType: "local",
-                    responsiveLevels: "1240,1200,992,767",
-                    progressBar: { disableProgressBar: true },
-                    navigation: {
-                        mouseScrollNavigation: false,
-                        onHoverStop: false,
-                        touch: {
-                            touchenabled: true,
-                            touchOnDesktop: true
-                        },
-                        bullets: {
-                            enable: true,
-                            tmp: "",
-                            style: "custom",
-                            hide_onmobile: true,
-                            hide_under: 1100,
-                            h_align: "left",
-                            v_align: "center",
-                            h_offset: 25,
-                            direction: "vertical"
-                        }
-                    },
-                    parallax: {
-                        levels: [5, 10, 15, 20, 25, 30, 35, 40, 45, 46, 47, 48, 49, 50, 51, 55],
-                        type: "mouse",
-                        disable_onmobile: true
-                    },
-                    viewPort: {
-                        global: true,
-                        globalDist: "-200px",
-                        enable: false,
-                        visible_area: "20%"
-                    },
-                    fallbacks: {
-                        allowHTML5AutoPlayOnAndroid: true
-                    },
-                });
-
-            }
-        } // End of RevInitScript
-
-        if (window.RS_MODULES.checkMinimal !== undefined) { window.RS_MODULES.checkMinimal(); };
-    </script>
+        src='https://webdesign-finder.com/arma/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/map/static/js/scripts.js?ver=2.7.28'
+        id='fw-shortcode-map-script-js'></script>
 </body>
 
 </html>
