@@ -1,9 +1,9 @@
-Options +FollowSymLinks -MultiViews
-RewriteEngine On
-RewriteBase /
-RewriteCond %{HTTP_HOST} !^localhost$
+# Options +FollowSymLinks -MultiViews
+# RewriteEngine On
+# RewriteBase /
+# RewriteCond %{HTTP_HOST} !^localhost$
 
-RewriteRule ^$  index.php [NC,L]
-RewriteRule ^hakkimizda$  hakkimizda.php [NC,L]
-RewriteRule ^faaliyet$  faaliyet_alanlari.php [NC,L]
-RewriteRule ^iletishim$  iletishim.php [NC,L]
+# RewriteRule ^$  index.php [NC,L]
+# RewriteRule ^hakkimizda$  hakkimizda.php [NC,L]
+# RewriteRule ^faaliyet$  faaliyet_alanlari.php [NC,L]
+# RewriteRule ^iletishim$  iletishim.php [NC,L]

@@ -19,13 +19,13 @@ $language2 = "";
 switch ($_SESSION['lang']) {
 
     case 'tr':
-        $language1 = "<a  href='?lang=tr' ><img  src='assets/images/tr.webp' alt='tr'/></a>";
-        $language2 = "<a  href='?lang=en' ><img  src='assets/images/en.webp' alt='en'/></a>";
+        $language1 = "<a  href='?lang=tr' ><img  src='assets/images/tr.webp' alt='tr' style='height: 20px;'/></a>";
+        $language2 = "<a  href='?lang=en' ><img  src='assets/images/en.webp' alt='en' style='height: 20px;'/></a>";
      break;
 
     case 'en':
-        $language1 = "<a  href='?lang=en' ><img  src='assets/images/en.webp' alt='en'/></a>";
-        $language2 = "<a  href='?lang=tr' ><img  src='assets/images/tr.webp ' alt='tr'/></a>";
+        $language1 = "<a  href='?lang=en' ><img  src='assets/images/en.webp' alt='en' style='height: 20px;'/></a>";
+        $language2 = "<a  href='?lang=tr' ><img  src='assets/images/tr.webp ' alt='tr' style='height: 20px;'/></a>";
         break;
 }
 ?>

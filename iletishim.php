@@ -257,7 +257,7 @@
                                     <div class="icon-styled fs-32  color-darkgrey">
                                         <i class="fa fa-phone" aria-hidden="true"></i>
                                         <h4 class="fw-300">
-                                            Telefon </h4>
+                                        <?= $lang['contactitem1'] ?> </h4>
                                     </div>
                                     <div class="media-body">
                                         <p>0 (312) 219 44 20<br>
@@ -271,7 +271,7 @@
                                     <div class="icon-styled fs-32  color-darkgrey">
                                         <i class="fa fa-map-marker" aria-hidden="true"></i>
                                         <h4 class="fw-300">
-                                            Adres </h4>
+                                        <?= $lang['contactitem2'] ?>  </h4>
                                     </div>
                                     <div class="media-body">
                                         <p>Mustafa Kemal Mah. 2131.<br> Cad. 32 Sitesi No: 32/8 ÇANKAYA / ANKARA</p>
@@ -285,7 +285,7 @@
                                         <i class="fa fa-envelope" aria-hidden="true"></i>
 
                                         <h4 class="fw-300">
-                                            E-Posta </h4>
+                                        <?= $lang['contactitem3'] ?>  </h4>
                                     </div>
                                     <div class="media-body">
                                         <p><a href="mailto:info@baysav.com">
@@ -328,7 +328,7 @@
                                                             type="text" name="your-name" value="" size="40"
                                                             class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control"
                                                             id="id-1" aria-required="true" aria-invalid="false"
-                                                            placeholder="Ad*:" /></span>
+                                                            placeholder="<?= $lang['formitem1'] ?> *:" /></span>
                                                 </div>
                                                 <div class="col-xs-12 col-12 form-builder-item">
                                                     <!-- <label for="id-1"><strong>Ad</strong> <sup>*</sup>.</label> -->
@@ -336,7 +336,7 @@
                                                             type="text" name="your-name" value="" size="40"
                                                             class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control"
                                                             id="id-1" aria-required="true" aria-invalid="false"
-                                                            placeholder="Telefon*:" /></span>
+                                                            placeholder="<?= $lang['formitem2'] ?>*:" /></span>
                                                 </div>
                                                 <div class="col-xs-12 col-12 form-builder-item">
                                                     <!-- <label for="id-2">Email<sup>*</sup></label> -->
@@ -344,7 +344,7 @@
                                                             type="email" name="your-email" value="" size="40"
                                                             class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control"
                                                             id="id-2" aria-required="true" aria-invalid="false"
-                                                            placeholder="E-posta*:" /></span>
+                                                            placeholder="<?= $lang['formitem3'] ?>*:" /></span>
                                                 </div>
                                                 <div class="col-xs-12 col-12 form-builder-item">
                                                     <!-- <label for="id-3">Mesajınız <sup>*</sup></label> -->
@@ -353,10 +353,10 @@
                                                             cols="40" rows="6"
                                                             class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required form-control"
                                                             id="id-3" aria-required="true" aria-invalid="false"
-                                                            placeholder="Mesaj*:"></textarea></span>
+                                                            placeholder="<?= $lang['formitem4'] ?>*:"></textarea></span>
                                                 </div>
                                                 <div class="col-12 col-sm-12 mb-0">
-                                                    <input type="submit" value="Gönder"
+                                                    <input type="submit" value="<?= $lang['sendbutton'] ?>"
                                                         class="wpcf7-form-control has-spinner wpcf7-submit btn btn-outline-darkgrey" />
                                                 </div>
                                             </div>
