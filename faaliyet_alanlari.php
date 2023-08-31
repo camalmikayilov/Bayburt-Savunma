@@ -261,14 +261,6 @@
             <div class="fw-page-builder-content">
                 <section class=" overflow-visible  ds      s-pt-50 s-pb-50" id="section-d0d4c69">
                     <h6 class="d-none">section-d0d4c69</h6>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xs-12 col-12">
-                                <div class="fw-divider-space hidden-xs hidden-sm hidden-md">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </section>
                 <section
                     class=" ls      s-pt-60 s-pb-30   s-pt-md-70 s-pb-md-50   s-pt-xl-141 s-pb-xl-125      cover-background hide-img-on-mobile"
@@ -280,7 +272,7 @@
                             <div class="col-xs-12 col-12">
                                 <h1 class="special-heading text-center">
                                     <span class="">
-                                        <span class="color-main">FAALİYET ALANLARI</span>
+                                        <span class="color-main"><?= $lang['actionTitle'] ?></span>
                                 </h1>
                                 <div class="fw-divider-space " style="margin-top: 20px;"></div>
                                 <div class="fw-divider-special-center ">
@@ -296,8 +288,7 @@
                                             <div class="teaser_icon icon-styled black size_big border_icon">
                                             </div>
                                             <h4>
-                                                <h5>
-                                                    KARA SİSTEMLERİ </h5>
+                                                <h5><?= $lang['action1'] ?></h5>
                                             </h4>
                                             <div class="cat-links">
                                             </div>
@@ -308,8 +299,7 @@
                                             <div class="teaser_icon icon-styled black size_big border_icon">
                                             </div>
                                             <h4>
-                                                <h5>
-                                                    HAVACILIK SİSTEMLERİ </h5>
+                                                <h5><?= $lang['action2'] ?></h5>
                                             </h4>
                                             <div class="cat-links">
                                             </div>
@@ -320,8 +310,7 @@
                                             <div class="teaser_icon icon-styled black size_big border_icon">
                                             </div>
                                             <h4>
-                                                <h5>
-                                                    DENİZ SİSTEMLERİ </h5>
+                                                <h5><?= $lang['action3'] ?></h5>
                                             </h4>
                                             <div class="cat-links">
                                             </div>
@@ -332,8 +321,7 @@
                                             <div class="teaser_icon icon-styled black size_big border_icon">
                                             </div>
                                             <h4>
-                                                <h5>
-                                                    SİLAH SAVUNMA SİSTEMLERİ </h5>
+                                                <h5><?= $lang['action4'] ?></h5>
                                             </h4>
                                             <div class="cat-links">
                                             </div>
@@ -344,8 +332,7 @@
                                             <div class="teaser_icon icon-styled black size_big border_icon">
                                             </div>
                                             <h4>
-                                                <h5>
-                                                    HABERLEŞME SİSTEMLERİ </h5>
+                                                <h5><?= $lang['action5'] ?></h5>
                                             </h4>
                                             <div class="cat-links">
                                             </div>
@@ -356,8 +343,7 @@
                                             <div class="teaser_icon icon-styled black size_big border_icon">
                                             </div>
                                             <h4>
-                                                <h5>
-                                                    KONTROL SİSTEMLERİ </h5>
+                                                <h5><?= $lang['action6'] ?></h5>
                                             </h4>
                                             <div class="cat-links">
                                             </div>
@@ -368,8 +354,7 @@
                                             <div class="teaser_icon icon-styled black size_big border_icon">
                                             </div>
                                             <h4>
-                                                <h5>
-                                                    LOJİSTİK SİSTEMLERİ </h5>
+                                                <h5><?= $lang['action7'] ?></h5>
                                             </h4>
                                             <div class="cat-links">
                                             </div>
@@ -380,8 +365,7 @@
                                             <div class="teaser_icon icon-styled black size_big border_icon">
                                             </div>
                                             <h4>
-                                                <h5>
-                                                    İMALAT SİSTEMLERİ </h5>
+                                                <h5><?= $lang['action8'] ?></h5>
                                             </h4>
                                             <div class="cat-links">
                                             </div>
@@ -392,8 +376,7 @@
                                             <div class="teaser_icon icon-styled black size_big border_icon">
                                             </div>
                                             <h4>
-                                                <h5>
-                                                    OTOMASYON SİSTEMLERİ </h5>
+                                                <h5><?= $lang['action9'] ?></h5>
                                             </h4>
                                             <div class="cat-links">
                                             </div>
@@ -409,106 +392,8 @@
             </section>
         </div>
 
-        <footer class="page_footer  ds s-pt-60 s-pb-40 c-gutter-150       s-pt-xl-100 s-pb-xl-80    ">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <div id="mwt_bloginfo-6" class="widget widget_bloginfo baysav-footer-logo"> <img
-                                src="./assets/images/baysav.png" alt="Logo">
-                        </div>
-                        <div id="custom_html-8" class="widget_text widget widget_custom_html">
-                            <div class="textwidget custom-html-widget footer-text">
-                                <p>BSS Baysav savunma sanayi alanında kapsamlı çözümler sunmaktadır. Sürdürülebilir,
-                                    yenilikçi ve güvenilir ilkelerle sektörde öncü ve özgün adımlarla
-                                    ilerlemektedir.</p>
-                                <div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div id="custom_html-5" class="widget_text widget widget_custom_html">
-                            <h3 class="widget-title">İLETİŞİM</h3>
-                            <div class="textwidget custom-html-widget">
-                                <div class="media side-icon-box">
-                                    <div class="icon-styled color-main fs-14">
-                                        <i class="fa fa-phone" aria-hidden="true" style="margin-top: 1rem;"></i>
-                                    </div>
-                                    <p x-ms-format-detection="none" class="media-body"> 0 (312) 219 44 20<span>0
-                                            (312) 219 44 21</span></p>
-                                </div>
-                                <div class="media side-icon-box">
-                                    <div class="icon-styled color-main fs-14">
-                                        <i class="fa fa-envelope" aria-hidden="true" style="margin-top: 6px;"></i>
-                                    </div>
-                                    <p class="media-body">
-                                        <a href="mailto:info@baysav.com">info@baysav.com </a>
-                                    </p>
-                                </div>
-                                <div class="media side-icon-box">
-                                    <div class="icon-styled color-main fs-14">
-                                        <i class="fa fa-map-marker" aria-hidden="true" style="margin-top:5px;"></i>
-                                    </div>
-                                    <p class="media-body">Mustafa Kemal Mah. 2131. Cad. 32 Sitesi No: 32/8 ÇANKAYA /
-                                        ANKARA</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- <div class="col-md-4">
-                        <div id="mwt_theme_posts-3" class="widget widget_popular_entries">
-                            <h3 class="widget-title">Son Haberler</h3>
-                            <ul id="recent_posts_64d96b392d468" class="list-unstyled">
-                                <li
-                                    class="media post-7 post type-post status-publish format-standard has-post-thumbnail hentry category-news">
-                                    <a href="https://webdesign-finder.com/arma/ready-for-a-safe-fun-driving/"
-                                        class="media-left">
-                                        <img width="150" height="150"
-                                            src="https://webdesign-finder.com/arma/wp-content/uploads/2019/04/01-3-150x150.jpg"
-                                            class="attachment-thumbnail size-thumbnail wp-post-image" alt=""
-                                            decoding="async" loading="lazy"
-                                            srcset="https://webdesign-finder.com/arma/wp-content/uploads/2019/04/01-3-150x150.jpg 150w, https://webdesign-finder.com/arma/wp-content/uploads/2019/04/01-3-800x800.jpg 800w, https://webdesign-finder.com/arma/wp-content/uploads/2019/04/01-3-300x300.jpg 300w, https://webdesign-finder.com/arma/wp-content/uploads/2019/04/01-3-100x100.jpg 100w, https://webdesign-finder.com/arma/wp-content/uploads/2019/04/01-3-700x700.jpg 700w"
-                                            sizes="(max-width: 150px) 100vw, 150px" /> </a>
-                                    <div class="media-body">
-                                        <h4 class="title"><a
-                                                href="https://webdesign-finder.com/arma/ready-for-a-safe-fun-driving/">Arma
-                                                recognized as a LinkedIn Top Company</a></h4>
-                                        <p class="item-meta">
-                                            <span class="widget-post-date">
-                                                October 13, 2022 </span>
-                                        </p>
-                                    </div>
-                                </li>
-                                <li
-                                    class="media post-296 post type-post status-publish format-gallery hentry category-carousel category-uncategorized post_format-post-format-gallery">
-                                    <div class="media-body">
-                                        <h4 class="title"><a
-                                                href="https://webdesign-finder.com/arma/post-with-carousel/">Arma
-                                                funds robotics grants for 100 schools</a></h4>
-                                        <p class="item-meta">
-                                            <span class="widget-post-date">
-                                                September 6, 2022 </span>
-                                        </p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-        </footer>
-        <section class="page_copyright  ds s-pt-10 s-pb-10             ">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-sm-12 text-center">
-                        <p>
-                            <span class="copyright-year">&copy; 2023 </span> <a href="https://www.butagrup.com.tr/"
-                                target="_blank">Buta Grup</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section><!-- .page_copyright -->
+        <?php include("footer.php"); ?> 
+<!-- .page_copyright -->
     </div><!-- eof #box_wrapper -->
     </div><!-- eof #canvas -->
 

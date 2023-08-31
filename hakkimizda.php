@@ -281,8 +281,9 @@
 
                                 <div class="fw-divider-space"></div>
                                 <h1 class="special-heading text-left">
-                                    <span class="">
-                                        <span class="color-main">Hakkımızda
+
+                                        <span class="color-main"><?= $lang['aboutTitle'] ?></span>
+
                                 </h1>
 
                                 <div class="fw-divider-space"></div>
@@ -294,16 +295,8 @@
 
                                 <div class="fw-divider-space hidden-xs hidden-sm hidden-md">
                                 </div>
-                                <p>
-                                    BSS Baysav savunma sanayi için stratejik ve kapsamlı hizmetler sunmaktadır.
-                                    Sürdürülebilir, yenilikçi ve güvenilir ilkelerle sektörde öncü ve özgün adımlarla
-                                    ilerlemektedir.</p>
-                                <p>Yurt içi ve yurt dışında savunma sanayi için geniş yelpazede sistemler ve ürünler
-                                    geliştirmektedir.
-                                    Savunma ve güvenlik alanında kara, hava, deniz, silah, kontrol, lojistik,
-                                    haberleşme, otomasyon sistemleri için küresel ölçekte teknolojik çözümler
-                                    sunmaktadır.
-                                </p>
+                                <p><?= $lang['aboutText1'] ?></p>
+                                <p><?= $lang['aboutText2'] ?></p>
                                 <div class="fw-divider-space hidden-lg hidden-xl"></div>
                             </div>
                         </div>
@@ -331,57 +324,45 @@
                                 <div
                                     class="isotope-wrapper isotope service-isotope row masonry-layout c-gutter-30 c-mb-30">
                                     <div class="isotope-item col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
-                                        <div class="icon-box text-center ">
+                                        <div class="icon-box text-center " style="height:25rem;">
                                             <div class="teaser_icon icon-styled black size_big border_icon">
                                                 <img src="./assets/images/mission.png" alt="">
                                             </div>
                                             <h4>
                                                 <a href="https://webdesign-finder.com/arma/service/cloud-security/">
-                                                    MİSYON </a>
+                                                <?= $lang['activityitem1'] ?> </a>
                                             </h4>
                                             <div class="cat-links">
                                             </div>
-                                            <p>
-                                                ​Savunma sanayi alanında stratejik ürünlerin üretim, tedarik ve Ar-Ge
-                                                faaliyetleri ile ihtiyaçlar doğrultusunda teminini sağlamak. </p>
+                                            <p><?= $lang['activitytext1'] ?> </p>
                                         </div>
                                     </div>
                                     <div class="isotope-item col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
-                                        <div class="icon-box text-center ">
+                                        <div class="icon-box text-center " style="height:25rem;">
                                             <div class="teaser_icon icon-styled black size_big border_icon">
                                                 <img src="./assets/images/target.png" alt="">
                                             </div>
                                             <h4>
                                                 <a href="https://webdesign-finder.com/arma/service/home-security/">
-                                                    VİZYON </a>
+                                                <?= $lang['activityitem2'] ?> </a>
                                             </h4>
                                             <div class="cat-links">
                                             </div>
-                                            <p>
-                                                Savunma sanayi alanında yenilikçi, yerli ve milli yetenekleri güçlü bir
-                                                ekosistem içerisinde uluslararası gelişmeleri dikkate alarak stratejik
-                                                bir bakış açısıyla gerekli işbirlikleri çerçevesinde kaliteli ürünler
-                                                üretip öncü bir marka olmak. </p>
+                                            <p><?= $lang['activitytext2'] ?> </p>
                                         </div>
                                     </div>
                                     <div class="isotope-item col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
-                                        <div class="icon-box text-center ">
+                                        <div class="icon-box text-center " style="height:25rem;">
                                             <div class="teaser_icon icon-styled black size_big border_icon">
                                                 <img src="./assets/images/values.png" alt="">
                                             </div>
                                             <h4>
                                                 <a href="https://webdesign-finder.com/arma/service/discount-program/">
-                                                    DEĞERLER </a>
+                                                <?= $lang['activityitem3'] ?> </a>
                                             </h4>
                                             <div class="cat-links">
                                             </div>
-                                            <p>
-                                                Kalite <br />
-                                                Güvenilirlik <br />
-                                                Yenilikçilik <br />
-                                                Sürdürülebilirlik <br />
-                                                Kapsayıcılık <br />
-                                                Çevreye ve İnsana Saygı </p>
+                                            <p><?= $lang['activitytext3'] ?> </p>
                                         </div>
                                     </div>
 

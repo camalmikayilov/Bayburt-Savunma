@@ -7,9 +7,7 @@
                             </div>
                             <div id="custom_html-8" class="widget_text widget widget_custom_html">
                                 <div class="textwidget custom-html-widget footer-text">
-                                    <p>BSS Baysav savunma sanayi alanında kapsamlı çözümler sunmaktadır. Sürdürülebilir,
-                                        yenilikçi ve güvenilir ilkelerle sektörde öncü ve özgün adımlarla
-                                        ilerlemektedir.</p>
+                                    <p><?= $lang['footerText'] ?></p>
                                     <div>
                                     </div>
                                 </div>
@@ -17,7 +15,7 @@
                         </div>
                         <div class="col">
                             <div id="custom_html-5" class="widget_text widget widget_custom_html">
-                                <h3 class="widget-title">İLETİŞİM</h3>
+                                <h3 class="widget-title"><?= $lang['menuitem4'] ?></h3>
                                 <div class="textwidget custom-html-widget">
                                     <div class="media side-icon-box">
                                         <div class="icon-styled color-main fs-14">
