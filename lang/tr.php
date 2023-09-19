@@ -9,6 +9,7 @@ $lang['menuitem4'] = "İletişim";
 $lang['footerText'] = "BSS Baysav savunma sanayi alanında kapsamlı çözümler sunmaktadır. Sürdürülebilir,
 yenilikçi ve güvenilir ilkelerle sektörde öncü ve özgün adımlarla
 ilerlemektedir.";
+$lang['footChan'] = "Çankaya";
 
 // About
 $lang['aboutTitle'] = "HAKKIMIZDA";
@@ -23,16 +24,16 @@ sunmaktadır.";
 
 // Activity
 $lang['activityitem1'] = "MİSYON";
-$lang['activityitem1'] = "VİZYON";
-$lang['activityitem1'] = "DEĞERLER";
+$lang['activityitem2'] = "VİZYON";
+$lang['activityitem3'] = "DEĞERLER";
 
 $lang['activitytext1'] = "​Savunma sanayi alanında stratejik ürünlerin üretim, tedarik ve Ar-Ge
 faaliyetleri ile ihtiyaçlar doğrultusunda teminini sağlamak.";
-$lang['activitytext1'] = "Savunma sanayi alanında yenilikçi, yerli ve milli yetenekleri güçlü bir
+$lang['activitytext2'] = "Savunma sanayi alanında yenilikçi, yerli ve milli yetenekleri güçlü bir
 ekosistem içerisinde uluslararası gelişmeleri dikkate alarak stratejik
 bir bakış açısıyla gerekli işbirlikleri çerçevesinde kaliteli ürünler
 üretip öncü bir marka olmak.";
-$lang['activitytext1'] = "Kalite <br />
+$lang['activitytext3'] = "Kalite <br />
 Güvenilirlik <br />
 Yenilikçilik <br />
 Sürdürülebilirlik <br />
@@ -68,5 +69,14 @@ $lang['action7'] = "LOJİSTİK SİSTEMLERİ";
 $lang['action8'] = "İMALAT SİSTEMLERİ";
 $lang['action9'] = "OTOMASYON SİSTEMLERİ";
 
+$lang['formItem9'] = "Geçerli bir e-posta adressi yazın";
+$lang['formItem10'] = "Geçerli bir numara yazın";
+
+$lang['formItem11'] = "Bir hata oluştu";
+
+$lang['formItem13'] = "Mesajınız başarıyla gönderildi. Teşekkürler.";
+$lang['formItem14'] = "Alan boş olamaz";
+
+$lang['alertClose'] = "Kapat";
 
 ?>

@@ -7,7 +7,7 @@ $lang['menuitem4'] = "Contact";
 
 // Footer
 $lang['footerText'] = "BSS Baysav provides strategic and comprehensive services for the defense industry. With principles of sustainability, innovation, and reliability, it takes pioneering and unique steps in the sector. ";
-
+$lang['footChan'] = "Chankaya";
 
 // About
 $lang['aboutTitle'] = "ABOUT";
@@ -57,4 +57,11 @@ $lang['action7'] = "LOGISTICS SYSTEMS";
 $lang['action8'] = "MANUFACTURING SYSTEMS";
 $lang['action9'] = "AUTOMATION SYSTEMS";
 
+$lang['formItem9'] = "Please enter a valid email address.";
+$lang['formItem10'] = "Please enter a valid number.";
+
+$lang['formItem11'] = "There was an error";
+
+$lang['formItem13'] = "Your message was sent successful. Thanks.";
+$lang['alertClose'] = "Close";
 ?>

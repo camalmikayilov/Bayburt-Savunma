@@ -130,6 +130,10 @@
             }
 
         }
+
+        .icon-box h5 {
+    margin-top: 0px;
+}
     </style>
     <script type="text/javascript">
         window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "https:\/\/webdesign-finder.com\/arma\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.1.3" } };
@@ -287,9 +291,7 @@
                                         <div class="icon-box text-center hover-box">
                                             <div class="teaser_icon icon-styled black size_big border_icon">
                                             </div>
-                                            <h4>
                                                 <h5><?= $lang['action1'] ?></h5>
-                                            </h4>
                                             <div class="cat-links">
                                             </div>
                                         </div>
@@ -298,9 +300,7 @@
                                         <div class="icon-box text-center hover-box">
                                             <div class="teaser_icon icon-styled black size_big border_icon">
                                             </div>
-                                            <h4>
                                                 <h5><?= $lang['action2'] ?></h5>
-                                            </h4>
                                             <div class="cat-links">
                                             </div>
                                         </div>
@@ -309,9 +309,7 @@
                                         <div class="icon-box text-center hover-box">
                                             <div class="teaser_icon icon-styled black size_big border_icon">
                                             </div>
-                                            <h4>
                                                 <h5><?= $lang['action3'] ?></h5>
-                                            </h4>
                                             <div class="cat-links">
                                             </div>
                                         </div>
@@ -320,9 +318,7 @@
                                         <div class="icon-box text-center hover-box">
                                             <div class="teaser_icon icon-styled black size_big border_icon">
                                             </div>
-                                            <h4>
                                                 <h5><?= $lang['action4'] ?></h5>
-                                            </h4>
                                             <div class="cat-links">
                                             </div>
                                         </div>
@@ -331,9 +327,7 @@
                                         <div class="icon-box text-center hover-box">
                                             <div class="teaser_icon icon-styled black size_big border_icon">
                                             </div>
-                                            <h4>
                                                 <h5><?= $lang['action5'] ?></h5>
-                                            </h4>
                                             <div class="cat-links">
                                             </div>
                                         </div>
@@ -342,9 +336,7 @@
                                         <div class="icon-box text-center hover-box">
                                             <div class="teaser_icon icon-styled black size_big border_icon">
                                             </div>
-                                            <h4>
                                                 <h5><?= $lang['action6'] ?></h5>
-                                            </h4>
                                             <div class="cat-links">
                                             </div>
                                         </div>
@@ -353,9 +345,7 @@
                                         <div class="icon-box text-center hover-box">
                                             <div class="teaser_icon icon-styled black size_big border_icon">
                                             </div>
-                                            <h4>
                                                 <h5><?= $lang['action7'] ?></h5>
-                                            </h4>
                                             <div class="cat-links">
                                             </div>
                                         </div>
@@ -364,9 +354,7 @@
                                         <div class="icon-box text-center hover-box">
                                             <div class="teaser_icon icon-styled black size_big border_icon">
                                             </div>
-                                            <h4>
                                                 <h5><?= $lang['action8'] ?></h5>
-                                            </h4>
                                             <div class="cat-links">
                                             </div>
                                         </div>
@@ -375,9 +363,7 @@
                                         <div class="icon-box text-center hover-box">
                                             <div class="teaser_icon icon-styled black size_big border_icon">
                                             </div>
-                                            <h4>
                                                 <h5><?= $lang['action9'] ?></h5>
-                                            </h4>
                                             <div class="cat-links">
                                             </div>
                                         </div>

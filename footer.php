@@ -1,8 +1,54 @@
+<script src="assets/js/check.js"></script>
+    <script>
+document.addEventListener('DOMContentLoaded', () => {
+    checkSuccess();
+});
+
+
+function checkSuccess() {
+    <?php
+    if ($_GET['success'] == '1') {
+        echo 'swal({
+                        title: "' . $lang['formItem13'] . '",
+                        icon: "success",
+                        button: "' . $lang['alertClose'] . '",
+                      });';
+    }
+    if ($_GET['error'] == '1') {
+        echo 'swal("' . $lang['formItem11'] . '", "", "error");';
+    }
+    if ($_GET['error'] == '2') {
+        echo 'swal("' . $lang['formItem9'] . '", "", "error");';
+    }
+    if ($_GET['error'] == '3') {
+        echo 'swal("' . $lang['formItem10'] . '", "", "error");';
+    }
+    ?>
+}
+</script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<style>
+    .s-pb-xl-80>[class*=container] {
+    padding-bottom: 50px;
+}
+
+.s-pt-xl-100>[class*=container] {
+    padding-top: 50px;
+}
+
+
+.footer-text p{
+    line-height: 2rem;
+}
+</style>
+
+
 <footer class="page_footer  ds s-pt-60 s-pb-40 c-gutter-150       s-pt-xl-100 s-pb-xl-80    ">
                 <div class="container">
                     <div class="row">
                         <div class="col">
-                            <div id="mwt_bloginfo-6" class="widget widget_bloginfo baysav-footer-logo"> <img
+                            <div id="mwt_bloginfo-6" class="widget widget_bloginfo baysav-footer-logo" style="padding-left: 4.3rem;"> <img
                                     src="./assets/images/baysav.png" alt="Logo">
                             </div>
                             <div id="custom_html-8" class="widget_text widget widget_custom_html">
@@ -36,7 +82,7 @@
                                         <div class="icon-styled color-main fs-14">
                                             <i class="fa fa-map-marker" aria-hidden="true" style="margin-top:5px;"></i>
                                         </div>
-                                        <p class="media-body">Mustafa Kemal Mah. 2131. Cad. 32 Sitesi No: 32/8 ÇANKAYA /
+                                        <p class="media-body">Mustafa Kemal Mah. 2131. Cad. 32 Sitesi No: 32/8 <?= $lang['footChan'] ?> /
                                             ANKARA</p>
                                     </div>
                                 </div>
@@ -89,8 +135,8 @@
                     <div class="row align-items-center">
                         <div class="col-sm-12 text-center">
                             <p>
-                                <span class="copyright-year">&copy; 2023 </span> <a href="https://www.butagrup.com.tr/"
-                                    target="_blank">Buta Grup</a>
+                                <span class="copyright-year">Copyright © 2023  <a href="https://www.butagrup.com.tr/"
+                                    target="_blank">Buta Grup</a> All Rights Reserved.</span>
                             </p>
                         </div>
                     </div>
